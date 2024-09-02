@@ -42,7 +42,9 @@ const Header: React.FC = () => {
   return (
     <header
       className={`${
-        scrollY > 0 ? "bg-background" : "bg-background"
+        scrollY > 0
+          ? "bg-background translate-y-[0%]"
+          : "bg-background translate-y-[-100%]"
       } fixed top-0 text-foreground w-full center h-[80px] px-4 z-30 duration-300`}
     >
       <div className="center !justify-between max-w-screen-2xl w-full">

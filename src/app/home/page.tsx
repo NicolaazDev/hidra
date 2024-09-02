@@ -17,7 +17,7 @@ export default function Home() {
         message={"Quero saber mais sobre a Hidrica!"}
         position="bottom-right"
         bgColor="#25D366"
-        iconSize={20}
+        iconSize={50}
       />
       <Section />
       <AdvantagesSection />
