@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.css";
+@import "./colors.css";
+
+@layer utilities {
+  .center {
+    @apply flex items-center justify-center;
+  }
+
+  .center-col {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  nav a {
+    @apply border border-solid border-transparent transition-all;
+  }
+
+  nav a:hover {
+    @apply !border-b-blue-500;
+  }
+
+  .text-gradient {
+    background: radial-gradient(circle, #3f3f3f, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+
+  .title-gradient {
+    background: radial-gradient(circle, #3dc8ff, #6a91fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .secondarytext-gradient {
+    background: radial-gradient(
+      circle,
+      var(--popover-foreground),
+      var(--foreground)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .main-gradient {
+    background: radial-gradient(
+      circle,
+      var(--primary-foreground),
+      var(--primary)
+    );
+  }
+
+  .secondary-gradient {
+    background: radial-gradient(
+      circle,
+      var(--popover-foreground),
+      var(--foreground)
+    );
+  }
+
+  .contact-section {
+    @apply bg-blue-400;
+  }
+
+  .card:hover span {
+    @apply scale-105;
+  }
+
+  .hero-img {
+    zoom: 1.4 !important;
+  }
+
+  .main-button {
+    @apply bg-primary text-white h-[40px] px-5 py-2 rounded-md w-full;
+  }
+
+  /* Formulario Design */
+
+  .input-field {
+    @apply w-full my-3 center-col !items-start;
+
+    label {
+      @apply text-start;
+    }
+
+    input {
+      @apply h-[40px] border border-solid border-gray-100 outline-none pl-1;
+    }
+
+    .error-label {
+      @apply text-red-500 text-[14px] font-poppinsLight mt-1;
+    }
+  }
+
+  .functionalidades-section img {
+    @apply border border-solid border-gray-900;
+  }
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0.5rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--foreground);
+  }
+}
