@@ -71,6 +71,10 @@
     @apply bg-blue-400;
   }
 
+  video {
+    object-fit: cover !important;
+  }
+
   .card:hover span {
     @apply scale-105;
   }
