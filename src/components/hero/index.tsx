@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="inicio"
-      className="center min-h-[900px] h-[100vh] bg-[#000000] relative overflow-hidden"
+      className="center min-h-[900px] h-[100vh] bg-[#000000] relative overflow-hidden sm:min-h-fit sm:!h-auto"
     >
       <Header />
       {/* <video ref={videoRef} autoPlay muted loop >
