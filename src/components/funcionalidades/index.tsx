@@ -4,7 +4,7 @@ const Section = () => {
   return (
     <section className="bg-gray-100 p-10 w-full rounded-lg">
       <div className="max-w-[1200px] mx-auto">
-        <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6">
+        <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6 sm:text-3xl">
           Especificações <br /> técnicas
         </h1>
         <h1 className="text-xl font-bold text-gray-800 mb-6">

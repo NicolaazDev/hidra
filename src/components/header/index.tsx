@@ -50,7 +50,7 @@ const Header: React.FC = () => {
       <div className="center !justify-between max-w-screen-2xl w-full">
         <div className="sm:flex hidden">
           <button
-            className="text-white focus:outline-none z-30 ml-4"
+            className="text-[#030303] focus:outline-none z-30 ml-4"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <HiX size={30} /> : <HiMenu size={30} />}

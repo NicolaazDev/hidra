@@ -80,7 +80,7 @@ const ProcessFlowSection = () => {
 
   return (
     <section className=" p-10 rounded-lg center-col">
-      <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6">
+      <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6 sm:text-3xl">
         Princípio de Funcionamento
       </h1>
       <img src="https://www.hidrica.com.br/img/sistema_rafa_fan.jpg" />
