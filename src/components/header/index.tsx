@@ -89,10 +89,8 @@ const Header: React.FC = () => {
             Sistema RAFA-Fan
           </a>
           <a
-            href="#signup"
-            onClick={(e) => {
-              if (!isRegister) toggleForm();
-            }}
+            href="#contact"
+            onClick={(e) => handleScroll(e, "contact")}
             className="hover:border-b-background border border-solid border-transparent transition-all"
           >
             Contato

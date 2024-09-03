@@ -8,7 +8,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const Contact: React.FC = () => {
   return (
-    <section className="contact-section text-background py-10 relative overflow-hidden">
+    <section
+      id="contact"
+      className="contact-section text-background py-10 relative overflow-hidden"
+    >
       <div className="max-w-screen-2xl z-50 mx-auto center flex flex-col items-center space-y-12">
         <p className="text-lg text-center max-w-3xl z-50 sm:max-w-[90%]">
           Tem alguma dúvida, sugestão ou precisa de ajuda? Estamos disponíveis

@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvantagesSection = () => {
   return (
-    <section className="bg-white w-full p-10 rounded-lg ">
+    <section id="pricing" className="bg-white w-full p-10 rounded-lg ">
       <div className="max-w-[1200px] mx-auto">
         <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6 sm:text-3xl">
           Vantagens do Sistema <br /> RAFA-FAn
