@@ -7,7 +7,7 @@ const AdvantagesSection = () => {
         <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6 sm:text-3xl">
           Vantagens do Sistema <br /> RAFA-FAn
         </h1>
-        <ul className="list-disc list-inside text-gray-700 space-y-3">
+        <ul className="list-disc list-inside text-gray-700 space-y-3 font-[600]">
           <li>
             Sistema compacto que reúne dois processos de tratamento em série em
             um único módulo.

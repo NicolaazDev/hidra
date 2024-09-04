@@ -11,11 +11,8 @@ const Card = ({
 }) => {
   return (
     <div className="bg-white overflow-hidden p-6 rounded-lg border border-solid transition-all border-blue-300 mb-4 relative hover:border-blue-900 card">
-      <span className="absolute -top-2 right-2 text-[68px] transition-all text-gray-500 opacity-10 font-poppinsExtraBold">
-        #0{index}
-      </span>
       <h2 className="text-lg font-semibold mt-6 text-gray-800 mb-2">{title}</h2>
-      <p className="text-gray-700">{description}</p>
+      <p className="text-gray-700 font-[600]">{description}</p>
     </div>
   );
 };

@@ -7,6 +7,7 @@ import AdvantagesSection from "@/components/free";
 import Contact from "@/components/contact";
 import ProcessSection from "@/components/more";
 import FloatingWhatsAppButton from "@/components/whatsappTrigger";
+import FAQSection from "@/components/faq";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Section />
       <AdvantagesSection />
       <ProcessSection />
+      <FAQSection />
       <Contact />
     </main>
   );

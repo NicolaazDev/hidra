@@ -10,7 +10,7 @@ const Section = () => {
         <h1 className="text-xl font-bold text-gray-800 mb-6">
           Sistema Combinado de Tratamento de Esgoto
         </h1>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 font-[600]">
           Desenvolvido pela Hídrica Engenharia em parceria com a Fortmetal, este
           sistema adaptável ao nosso clima é ideal para o tratamento de esgotos
           sanitários domésticos e efluentes orgânicos industriais.
@@ -18,7 +18,7 @@ const Section = () => {
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Processo Biológico Avançado
         </h2>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 font-[600]">
           O processo é totalmente biológico e ocorre dentro do Reator Anaeróbio
           de Fluxo Ascendente (RAFA). Projetado para otimizar a transformação da
           matéria orgânica em gases, biomassa e água, o reator é construído em
@@ -29,7 +29,7 @@ const Section = () => {
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Filtro Anaeróbio Acoplado
         </h2>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 font-[600]">
           Associado ao RAFA, o Filtro Anaeróbio (FAn) atua no pós-tratamento,
           removendo a matéria orgânica remanescente e aumentando a clarificação
           do efluente. Este sistema reduz a carga orgânica em termos de DBO em
@@ -38,7 +38,7 @@ const Section = () => {
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Proteção à Saúde Pública
         </h2>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 font-[600]">
           Além de contribuir para o meio ambiente, este sistema previne doenças,
           especialmente na população infantil, sendo essencial para a proteção
           da saúde pública.

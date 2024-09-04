@@ -32,13 +32,16 @@ const Hero: React.FC = () => {
   return (
     <section
       id="inicio"
-      className="center min-h-[900px] h-[100vh] bg-[#000000] relative overflow-hidden sm:min-h-fit sm:!h-auto"
+      className="center h-[100vh] bg-[#000000] relative overflow-hidden sm:min-h-fit sm:!h-auto"
     >
       <Header />
-      {/* <video ref={videoRef} autoPlay muted loop >
-        <source src="https://files.catbox.moe/nnl506.mp4" type="video/mp4" />
-      </video> */}
-      <ReactPlayer
+      <video ref={videoRef} autoPlay muted loop>
+        <source
+          src="https://files.catbox.moe/nnl506.mp4#t=16"
+          type="video/mp4"
+        />
+      </video>
+      {/* <ReactPlayer
         loop
         ref={videoRef}
         playing
@@ -49,7 +52,7 @@ const Hero: React.FC = () => {
         style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
         width={"100%"}
         height={"100%"}
-      />
+      /> */}
     </section>
   );
 };
