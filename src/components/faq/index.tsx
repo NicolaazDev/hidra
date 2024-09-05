@@ -48,7 +48,7 @@ function FAQSection() {
     <section id="faq" className="py-12">
       <div className="max-w-[1200px] mx-auto px-4">
         <h1 className="text-7xl uppercase font-poppinsBold text-center font-bold text-gray-800 mb-6 sm:text-3xl">
-          Especificações <br /> técnicas
+          Perguntas <br /> Frequentes
         </h1>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
